@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Logo from './Componentes/Logo';
+import Calculo from './Componentes/Calculo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Logo/>
+      <h2>Você sabe com qual compustivel compensa mais abastecer seu carro?</h2>
+      <h2>Utilize a calculadora abaixo:</h2>
+      <Calculo/>
     </div>
   );
 }
