@@ -14,9 +14,10 @@ const calculopreco = () => {
     preco.toFixed(2)
     if (preco < 0.72){
         alert("O calculo será igual a 0.72.Portanto, Abasteça com álcool")
-    }else{
+    }else if(preco > 0.72){
         alert("O calculo será igual a 0.72.Portanto, Abasteça com gasolina")
-    }
+    }else{
+        alert("Eror digite o valor")
 
 }
 
